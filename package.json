@@ -1,0 +1,20 @@
+{
+  "name": "llm-chat",
+  "version": "1.0.0",
+  "description": "Just a simple HTML UI for Ollama",
+  "main": "api.js",
+  "scripts": {
+  "start": "node api.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^4.28.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "node-fetch": "^2.7.0"
+  }
+}
